@@ -7,7 +7,7 @@ const Header = () => {
 			<Link to="/">Coding-Tipps</Link>
 			<p>
 				{" "}
-				written by <Link to="https://asli-web.netlify.app/">Asli</Link>
+				written by <Link to="https://asli-dev.netlify.app/">Asli</Link>
 			</p>
 		</div>
 	);

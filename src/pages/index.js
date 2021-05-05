@@ -27,7 +27,7 @@ export default class BlogIndexPage extends React.Component {
 					</h1>
 					<p>
 						{" "}
-						written by <Link to="https://asli-web.netlify.app/">Asli</Link>
+						written by <Link to="https://asli-dev.netlify.app/">Asli</Link>
 					</p>
 				</div>
 				<section className="section">
