@@ -57,9 +57,7 @@ The package.json file contains all the necessary information about our projects 
 <br>
 To built the project later **again**, we would only need to say:
 
-```markdown
-npm install
-```
+`npm install`
 
 and all the necessary packages would be installed from the package.json file.
 <br><br>
@@ -110,7 +108,7 @@ Then we want to navigate to our app.js and **initialize** it. To do that we say:
 ```javascript{numberLines:true}
 const express= require(„express“) //importing express
 const app = express() //making an object of the express module
-app.listen(3000, „app is listening on port 3000!“) //creating a server on port 3000
+app.listen(3000, () => console.log(„app is listening on port 3000!“)) //creating a server on port 3000
 ```
 
 our server is now located at `localhost:3000`.
@@ -133,7 +131,7 @@ Now we will update our code to look like this:
 
 ```javascript{numberLines: true}{4-6}
 
-import express from 'express';
+const express= require(„express“)
 
 const app = express();
 app.get("/", (req, res) => {
