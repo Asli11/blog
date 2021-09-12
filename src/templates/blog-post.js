@@ -28,10 +28,10 @@ export const BlogPostTemplate = ({
 						<h1 className="title is-size-2 has-text-weight-bold is-bold-light">
 							{title}
 						</h1>
-						<p style={{ margin: "0px 0px 28px 0px" }}>{date}</p>
-						<p>{description}</p>
+						<p className="date">{date}</p>
+						<p className="description"> {description}</p>
 
-						<PostContent content={content} />
+						<PostContent className="blog-content" content={content} />
 						{tags && tags.length ? (
 							<div style={{ marginTop: `4rem` }}>
 								<h4>Tags</h4>
