@@ -211,7 +211,7 @@ h1,
 h2,
 h3,
 h4 {
-	margin: 10px 0px;
+	margin: 20px 0px;
 }
 
 body,
@@ -386,6 +386,7 @@ section {
 .tile.is-child {
 	margin: 0 !important;
 }
+/* color features */
 .blog-list-item.is-featured {
 	background-color: rgba(0, 214, 96, 0.205);
 }
@@ -400,17 +401,17 @@ section {
 	min-height: min-content;
 }
 .notification {
-	background-color: #f5f5f5;
+	background-color: #eee6bb;
 	border-radius: 4px;
 	position: relative;
 	padding: 1.25rem 2.5rem 1.25rem 1.5rem;
 }
 .box {
-	background-color: #fff;
+	background-color: rgb(241, 243, 209);
 	border-radius: 6px;
 	box-shadow: 0 0.5em 1em -0.125em rgb(43 37 35 / 10%),
-		0 0 0 1px rgb(43 37 35 / 2%);
-	color: #4a4a4a;
+		0 0 0 1px rgb(43 37 35 / 7%);
+	color: #252525;
 	display: block;
 	padding: 1.25rem;
 }
@@ -451,9 +452,10 @@ section {
 }
 .title {
 	color: #363636;
-	font-size: 2rem;
+	font-size: 2.2rem;
 	font-weight: 600;
 	line-height: 1.125;
+	/* 	text-align: center; */
 }
 .tile.is-child {
 	margin: 0 !important;
@@ -569,6 +571,23 @@ span {
 .title.is-size-2.has-text-weight-bold .is-bold-light {
 	margin-bottom: 0;
 }
+.description {
+	color: inherit;
+	/* 	text-align: center; */
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
+}
+.date {
+	font-size: 0.9rem;
+	font-weight: 300;
+	margin-bottom: 10px;
+	/* 	text-align: center; */
+}
+.blog-content {
+	font-size: 1.1rem;
+	line-height: 35px;
+}
+
 @media print, screen and (min-width: 769px) {
 	.columns:not(.is-desktop) {
 		display: flex;
