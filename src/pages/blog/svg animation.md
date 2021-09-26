@@ -22,7 +22,7 @@ Our <b>single layered svg animation</b> will look like this -->
 
 The <b>first</b> animation we will do is tħis <b> single layered </b> one
 
-<iframe id="serviceFrameSend" src="/html/heart.html" width="100%" height="250"  frameborder="0"></iframe>
+<iframe id="serviceFrameSend" src="https://asli-web.github.io/websites/" width="100%" height="250"  frameborder="0"></iframe>
 
 <br>
 
@@ -631,7 +631,7 @@ Our next animation will be a multi layered one.
 <br>
 We will grab certain parts of our SVG file and animate them.
 
-<iframe id="serviceFrameSend" src="/html/manbird.html" width="100%" height="400"  frameborder="0"></iframe>
+<iframe id="serviceFrameSend" src="https://asli-web.github.io/anim/" width="100%" height="400"  frameborder="0"></iframe>
 
 <br>
 
